@@ -1,0 +1,96 @@
+body {
+    background-color: $main-background;
+    color: $fontgiada;
+    a {
+        color: white;
+        font-family: $personal-font;
+        &:hover {
+            color: #9a2dd2;
+        }
+    }
+
+    div.sezione {
+        padding: 100px 0;
+    }
+
+    h3,
+    h4,
+    h2 {
+        font-size: 3rem;
+        font-family: "Rubik", sans-serif;
+        color: $white;
+        line-height: 1.4;
+        letter-spacing: -0.01em;
+    }
+
+    h5,
+    h6 {
+        font-family: "Rubik", sans-serif;
+        font-size: 2rem;
+        color: $white;
+        line-height: 1.4;
+        letter-spacing: -0.01em;
+        font-family: "Rubik", sans-serif;
+    }
+
+    li,
+    a,
+    p {
+        color: $fontgiada;
+    }
+    .section1 {
+        h1 {
+            font-size: 4em;
+        }
+        p {
+            color: $white;
+        }
+    }
+
+    .purple {
+        color: #9a2dd2;
+        border-color: #9a2dd2;
+        font-size: 1rem;
+        &:hover {
+            color: #313131;
+            background-color: #9a2dd2;
+        }
+    }
+
+    div.giada {
+        position: relative;
+        border: 25px solid #9a2dd2;
+    }
+
+    .servizi {
+        .col-sm {
+            display: inline-flex;
+            padding: 40px 15px;
+            border: 1px solid $white;
+            border-radius: 3%;
+            color: white;
+        }
+    }
+
+    .btn-purple a {
+        background-color: $saint;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            color: #2a0f38;
+        }
+    }
+
+    .contatti {
+        padding: 70px 20px;
+        h6 {
+            font-size: 0.9rem;
+            font-weight: 100;
+        }
+        p {
+            color: $white;
+        }
+    }
+}
